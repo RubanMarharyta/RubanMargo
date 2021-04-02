@@ -26,8 +26,6 @@ import org.obrii.mit.dp2021.margoi.margoproject.Data;
 import org.obrii.mit.dp2021.margoi.margoproject.BDconnection;
 import org.obrii.mit.dp2021.margoi.margoproject.BaseInteractions;
 import org.obrii.mit.dp2021.margoi.margoproject.DataStore;
-//import org.obrii.mit.dp2021.nevmerzhytskyi.files.Config;
-//import org.obrii.mit.dp2021.nevmerzhytskyi.files.FilesCrud;
 
 
 @WebServlet(name = "BDServlet", urlPatterns = {"/DataBase"})
