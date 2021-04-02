@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     </head>
     <body id="forma__main">
-        <h1>Margo Lab 3 update page</h1>
+        <h1>Margo Lab 5 update page</h1>
         
         <form action= "<%=request.getContextPath()%>/DataBase" method="post" style="color:white; font-family: 'Open Sans', sans-serif;">
             <input type="hidden" name="id" value="0">

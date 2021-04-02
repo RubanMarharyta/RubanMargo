@@ -14,9 +14,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 
-
 @Entity
-public class  Data implements Serializable {
+public class  Data implements Serializable {  
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
@@ -31,7 +30,12 @@ public class  Data implements Serializable {
         this.name = name;
         this.age = age;
     }
-
+    
+    public Data(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+ 
     public int getAge() {
         return age;
     }

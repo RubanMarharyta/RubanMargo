@@ -24,7 +24,7 @@
                     </form>
 </div>
                     <div class="index__but">
-                <form action="<%=request.getContextPath()%>/DataBase" method="get">
+                <form action="<%=request.getContextPath()%>/Database" method="get">
                     <input  type="submit" value="go database"> 
                     </form>
                 </div></main>

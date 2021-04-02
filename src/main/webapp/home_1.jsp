@@ -19,8 +19,8 @@
         <title>home</title>
     </head>
     <body id="home__main">
-        <h1>Margo Lab 3 main page</h1>
-        <form action= "<%=request.getContextPath()%>/DataBase" method="get" id="sr__home">
+        <h1>Margo Lab 5 main page</h1>
+        <form action= "<%=request.getContextPath()%>/Database" method="get" id="sr__home">
             <input type="text" name="search">
             <input type="submit" value="search data">
         </form>
