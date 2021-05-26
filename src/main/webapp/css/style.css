@@ -1,0 +1,30 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 20px 0 ;
+}
+body{
+    background-color: #E85F87;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+.background{
+
+    width: 33%;
+    margin: 0 auto;
+    /* height: 15vh; */
+}
+button, input,select{
+    background-color: rgba(0, 0,0, 0.20);
+    padding: 10px;
+    border: none;
+}
+button:hover, input:hover,select:hover{
+    background-color: rgba(0, 0,0, 0.40);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+}
